@@ -1,0 +1,72 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.test
+.env.production
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# Build outputs
+dist/
+.cache/
+.out/
+
+# Docker-related
+docker-compose.override.yml
+*.pid
+*.seed
+*.dmp
+*.tar
+
+# Prisma
+prisma/migrations/
+.prisma/
+prisma/db/
+
+# Editor-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Optional npm cache
+.npm/
+
+# Git-related
+*.orig
+*.lock
+
+# Coverage reports
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Test outputs
+.jest/
+test-results/
+
+# Lint cache
+eslintcache
+
+# Ignore everything in the "user-service/node_modules" directory
+user-service/node_modules/
+
+# Ignore other services
+*/node_modules/
+*/dist/
